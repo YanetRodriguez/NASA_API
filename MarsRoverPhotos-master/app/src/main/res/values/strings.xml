@@ -6,6 +6,7 @@
     <string name="camera">Cámara</string>
     <string name="close">Cerrar</string>
     <string name="earth_date">Fecha Tierra</string>
+    <string name="sol">Día Marciano</string>
     <string name="change">Cambiar</string>
     <string name="name">Nombre</string>
     <string name="select_a_rover">Selecciona un Rover</string>
