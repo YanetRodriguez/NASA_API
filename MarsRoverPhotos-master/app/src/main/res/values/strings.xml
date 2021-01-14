@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Mars Rover Photos</string>
+    <string name="select">Seleccionar</string>
+    <string name="filter">Filtrar</string>
+    <string name="date">Fecha</string>
+    <string name="camera">Cámara</string>
+    <string name="close">Cerrar</string>
+    <string name="earth_date">Fecha Tierra</string>
+    <string name="change">Cambiar</string>
+    <string name="name">Nombre</string>
+    <string name="select_a_rover">Selecciona un Rover</string>
+    <string name="no_filter">Sin filtros</string>
+    <string name="launch_date">Fecha lanzamiento</string>
+    <string name="landing_date">Fecha aterrizaje</string>
+    <string name="status">Estado</string>
+    <string name="no_image_found">No se encuentran imágenes</string>
+</resources>
