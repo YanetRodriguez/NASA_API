@@ -40,7 +40,7 @@ class RoverSelectionViewModel @ViewModelInject constructor(private val roverRepo
             showLoader.value = true
             val roversData = roverRepository.getRovers()
             if (roversData is Result.Success) {
-                _rovers.value = roversData.data!!
+                _rovers.value = roversData.data
                 showLoader.value = false
             }
         }

@@ -111,7 +111,7 @@ class ShowImageViewModel @ViewModelInject constructor(private val roverRepositor
             queryModel.roverId?.let { roverId ->
                 val availableCameraList = roverRepository.getAvailableCameras(roverId)
                 if (availableCameraList is Result.Success) {
-                    availableCameras.value = availableCameraList.data!!
+                    availableCameras.value = availableCameraList.data
                 }
             }
         }
