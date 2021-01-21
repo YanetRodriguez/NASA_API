@@ -27,10 +27,8 @@ class RoverRepositoryImpl @Inject constructor(
         earthDate: String?,
         page: Int?
     ): Flow<Result<RoverData>> = flow {
-
         try {
             val images = roverImageServiceImpl.getImages(name, sol, apiKey, camera, earthDate, page)
-
             if (images.isSuccessful) {
                 images.body()?.let { roverData ->
                     emit(Result.Success(roverData))

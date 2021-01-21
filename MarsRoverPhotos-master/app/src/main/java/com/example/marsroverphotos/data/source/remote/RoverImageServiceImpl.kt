@@ -10,6 +10,5 @@ class RoverServiceImpl @Inject constructor(private val roverImageService: RoverI
         camera: String?,
         earthDate: String?,
         page: Int?
-    ) =
-        roverImageService.getImages(name, sol, apiKey, camera, earthDate, page)
+    ) = roverImageService.getImages(name, sol, apiKey, camera, earthDate, page)
 }
