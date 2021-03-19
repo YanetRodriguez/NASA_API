@@ -20,5 +20,5 @@ interface RoverImageService {
         earthDate: String?,
         @Query("page")
         page: Int?
-    ): Response<RoverData>
+    ): Response<RoverData>?
 }

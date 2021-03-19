@@ -64,6 +64,15 @@ dependencies {
     kapt "com.google.dagger:hilt-android-compiler:$hiltAndroidXVersion"
     kapt "androidx.hilt:hilt-compiler:1.0.0-alpha02"
 
+    // For Robolectric tests.
+    testImplementation 'com.google.dagger:hilt-android-testing:2.28-alpha'
+    //Test
+    kaptTest "com.google.dagger:hilt-android-compiler:$hiltAndroidXVersion"
+    // For instrumented tests.
+    androidTestImplementation 'com.google.dagger:hilt-android-testing:2.28-alpha'
+    // ...with Kotlin.
+    kaptAndroidTest "com.google.dagger:hilt-android-compiler:$hiltAndroidXVersion"
+
     //ViewPager2
     implementation "androidx.viewpager2:viewpager2:$viewPagerVersion"
 
